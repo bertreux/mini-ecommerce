@@ -20,8 +20,8 @@ const BonCode = () => {
         <li>
             adresse : {location.state.achat.adresse}
         </li>
-        <li>
-            Commentaire : {location.state.achat.commentaire}
+        <li className="commande_commentaire">
+            Commentaire : <br/>{location.state.achat.commentaire}
         </li>
     </ul>
     </> );

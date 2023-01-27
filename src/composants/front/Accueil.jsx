@@ -25,7 +25,7 @@ const Accueil = () => {
                     <h2 className="card-header">
                         {article.titre}
                     </h2>
-                    <div className="card-body">
+                    <div className="card-body article_contenu">
                         {article.contenu}
                     </div>
                     <footer className="card-footer d-flex justify-content-between">

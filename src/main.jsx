@@ -7,6 +7,7 @@ import Panier from "./composants/front/Panier"
 import BonCode from "./composants/front/BonCode"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { PanierContextProvider } from './contexts/panierContext'
+import "./style.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <PanierContextProvider>
